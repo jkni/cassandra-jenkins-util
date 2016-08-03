@@ -16,7 +16,7 @@ sudo pip install --upgrade cql decorator docopt enum34 flaky futures mock nose n
 # install/upgrade the latest cassandra-driver in pypi, including pre-releases
 #sudo pip install --pre --upgrade cassandra-driver
 # install python-driver from cassandra-test branch - this branch will get releases merged, as well as unreleased dev features
-git clone -b cassandra-test https://github.com/datastax/python-driver.git
+git clone -b cassandra-test https://github.com/jkni/python-driver.git
 sudo pip install -e python-driver
 # ..use the latest ccm HEAD
 git clone -b $CCM_BRANCH https://github.com/$CCM_REPO/ccm.git
